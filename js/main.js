@@ -5,9 +5,14 @@
  * @author TONYTONY Sàrl
  */
 
+const ENV = {
+    isStaging: location.hostname.endsWith(".webflow.io"),
+    isProduction: location.hostname === "maudevongiese.ch"
+};
+
 console.log(
     "%c🦄 Deploying main modules",
-    "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
+    "color: white; background: purple; padding: 2px 6px; border-radius: 3px;"
 );
 
 // global
@@ -18,16 +23,22 @@ import { initPerspective } from 'https://cdn.maudevongiese.ch/js/initPerspective
 import { initItalicFixWidth } from 'https://cdn.maudevongiese.ch/js/initItalicFixWidth.js?v=1.0.0';
 import { initToggleProjekte } from 'https://cdn.maudevongiese.ch/js/initToggleProjekte.js?v=1.0.0';
 import { initMenu } from 'https://cdn.maudevongiese.ch/js/initMenu.js?v=1.0.0';
+import { initSafariBlurFix } from 'https://cdn.maudevongiese.ch/js/initSafariBlurFix.js?v=1.0.0';
+import { initPreviousPage } from 'https://cdn.maudevongiese.ch/js/initPreviousPage.js?v=1.1.0';
+
 // home
 import { initTypedElements } from 'https://cdn.maudevongiese.ch/js/home/initTypedElements.js?v=1.1.0';
 import { initAlignThumbDetails } from 'https://cdn.maudevongiese.ch/js/home/initAlignThumbDetails.js?v=2.1.0';
 import { initThumbRevealHover } from 'https://cdn.maudevongiese.ch/js/home/initThumbRevealHover.js?v=1.0.0';
 import { initImagesReveal } from 'https://cdn.maudevongiese.ch/js/home/initImagesReveal.js?v=1.2.0';
+
 // werkverzeichnis
 import { initLimitScroll } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initLimitScroll.js?v=1.1.0';
 import { initRemoveColonMobile } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initRemoveColonMobile.js?v=1.0.0';
+
 // kontakt
 import { initLimitScrollKontakt } from 'https://cdn.maudevongiese.ch/js/kontakt/initLimitScrollKontakt.js?v=1.2.0';
+
 
 async function initApp() {
     // =========================
@@ -44,27 +55,41 @@ async function initApp() {
     initItalicFixWidth();
     initToggleProjekte();
     initMenu();
-  
-    // mobile-only cleanup
+    initSafariBlurFix();
+    initPreviousPage();
+
     initRemoveColonMobile();
-  
+
     console.log("✅ DOM modules initialized");
-  
+
     // =========================
     // 2. FONT DEPENDENT LAYER
     // =========================
     await document.fonts.ready;
     console.log("✅ Fonts ready");
-  
+
     // =========================
-    // 3. SCROLL ENGINE LAYER
+    // 3. SCROLL / MOTION ENGINE
     // =========================
     setTimeout(() => {
-      new SmoothScrollManager();
-      initPerspective(); // 👈 IMPORTANT: after Lenis/ScrollTrigger exist
+        new SmoothScrollManager();
+        initPerspective();
+
+        console.log("✅ Motion engine initialized");
+
+        // =========================
+        // 4. DEV TOOLS
+        // =========================
+        if (ENV.isStaging) {
+            import('https://cdn.maudevongiese.ch/js/FPSMonitor.js?v=1.1.0')
+                .then(({ FPSMonitor }) => {
+                    const fps = new FPSMonitor();
+                    fps.init();
+                });
+        }
     }, 250);
-  
-    console.log("✅ App fully initialized");
-  }
-  
-  document.addEventListener("DOMContentLoaded", initApp);
+
+    console.log("🚀 App fully initialized");
+}
+
+document.addEventListener("DOMContentLoaded", initApp);
