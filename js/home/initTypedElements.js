@@ -2,7 +2,7 @@
  * UTILITY | typed elements v1.1 (ES6 module)
  */
 
-import Typed from "https://cdn.jsdelivr.net/npm/typed.js@2.0.16/dist/typed.esm.js";
+import Typed from "https://cdn.jsdelivr.net/npm/typed.js@2.1.0/+esm";
 
 export function initTypedElements() {
   const OPTIONS = {
