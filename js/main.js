@@ -66,8 +66,8 @@ async function initApp() {
     // =========================
     // 2. FONT DEPENDENT LAYER
     // =========================
-    await document.fonts.ready;
-    console.log("✅ Fonts ready");
+    // await document.fonts.ready;
+    // console.log("✅ Fonts ready");
 
     // =========================
     // 3. SCROLL / MOTION ENGINE
@@ -81,6 +81,7 @@ async function initApp() {
         // =========================
         // 4. DEV TOOLS
         // =========================
+        /*
         if (ENV.isStaging) {
             import('https://cdn.maudevongiese.ch/js/FPSMonitor.js?v=1.1.0')
                 .then(({ FPSMonitor }) => {
@@ -88,6 +89,7 @@ async function initApp() {
                     fps.init();
                 });
         }
+         */
     }, 250);
 
     console.log("🚀 App fully initialized");
