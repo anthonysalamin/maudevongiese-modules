@@ -10,7 +10,7 @@ console.log(
     "color: white; background: purple; padding: 2px 6px; border-radius: 3px;",
 );
 
-import { initSimpleLoading } from 'https://cdn.maudvongiese.ch/js/initSimpleLoading.js?v=1.0.0';
+import { initSimpleLoading } from 'https://cdn.maudevongiese.ch/js/initSimpleLoading.js?v=1.0.0';
 
 
 // on DOM loaded
