@@ -6,7 +6,7 @@
  * @author TONYTONY Sàrl
  */
 
-import { debounce } from "../debounce.js";
+import { debounce } from 'https://cdn.maudevongiese.ch/js/debounce.js?v=1.0.0';
 
 export function initTrimCreditsBefore() {
     const OPTIONS = {
