@@ -2,6 +2,8 @@
  * MAUDE | regex keep before Maude von Giese text v1.1 (ES6 module)
  */
 
+import { debounce } from "../debounce.js";
+
 export function initTrimCreditsBefore() {
     const OPTIONS = {
         SELECTOR: '[data-credits="maude"]',
@@ -54,6 +56,5 @@ export function initTrimCreditsBefore() {
     // 🥭 init
     trimAfterMatch();
 
-    // 🥭 resize (use your global debounce)
     window.addEventListener("resize", debounce(trimAfterMatch, 200));
 }

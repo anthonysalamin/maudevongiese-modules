@@ -31,10 +31,12 @@ import { initAlignThumbDetails } from 'https://cdn.maudevongiese.ch/js/home/init
 import { initThumbRevealHover } from 'https://cdn.maudevongiese.ch/js/home/initThumbRevealHover.js?v=1.0.0';
 import { initImagesReveal } from 'https://cdn.maudevongiese.ch/js/home/initImagesReveal.js?v=1.2.0';
 // werkverzeichnis
-import { initLimitScroll } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initLimitScroll.js?v=1.1.0';
+import { initLimitScroll } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initLimitScroll.js?v=1.1.1';
 import { initRemoveColonMobile } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initRemoveColonMobile.js?v=1.0.0';
+import { initCleanCredits } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initCleanCredits.js?v=1.1.1';
+import { initTrimCreditsBefore } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initTrimCreditsBefore.js?v=1.0.1';
 // kontakt
-import { initLimitScrollKontakt } from 'https://cdn.maudevongiese.ch/js/kontakt/initLimitScrollKontakt.js?v=1.2.0';
+import { initLimitScrollKontakt } from 'https://cdn.maudevongiese.ch/js/kontakt/initLimitScrollKontakt.js?v=1.2.1';
 
 
 async function initApp() {
@@ -54,7 +56,8 @@ async function initApp() {
     initMenu();
     initSafariBlurFix();
     initPreviousPage();
-
+    initCleanCredits();
+    initTrimCreditsBefore();
     initRemoveColonMobile();
 
     console.log("✅ DOM modules initialized");

@@ -2,6 +2,8 @@
  * MAUDE | regex remove Maude von Giese text v1.1 (ES6 module)
  */
 
+import { debounce } from "../debounce.js";
+
 export function initCleanCredits() {
     const OPTIONS = {
         SELECTOR: '[data-credits="other"]',
@@ -52,6 +54,5 @@ export function initCleanCredits() {
     // 🥭 init
     cleanCredits();
 
-    // 🥭 resize (use your global debounce)
     window.addEventListener("resize", debounce(cleanCredits, 200));
 }

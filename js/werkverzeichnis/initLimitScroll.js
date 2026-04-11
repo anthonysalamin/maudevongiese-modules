@@ -2,6 +2,8 @@
  * UTILITY | limit scroll v1.1 (ES6 module)
  */
 
+import { debounce } from "../debounce.js";
+
 export function initLimitScroll() {
     const OPTIONS = {
         TARGET: '[data-section="werkverzeichnis"]'

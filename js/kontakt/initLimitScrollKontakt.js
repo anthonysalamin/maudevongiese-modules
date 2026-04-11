@@ -2,6 +2,8 @@
  * UTILITY | limit scroll v1.2 (ES6 module)
  */
 
+import { debounce } from "../debounce.js";
+
 export function initLimitScrollKontakt() {
     const OPTIONS = {
         BREAKPOINT: 992,
@@ -32,6 +34,5 @@ export function initLimitScrollKontakt() {
     // 🥭 init
     applyLimit();
 
-    // 🥭 resize (debounced if you want consistency with your stack)
     window.addEventListener("resize", debounce(applyLimit, 200));
 }
