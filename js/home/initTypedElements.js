@@ -1,5 +1,9 @@
-/*
- * UTILITY | typed elements v1.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initTypedElements
+ * Types out footer info copy with Typed.js on viewports at or above the desktop breakpoint.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 import Typed from "https://cdn.jsdelivr.net/npm/typed.js@2.1.0/+esm";

@@ -1,5 +1,9 @@
-/*
- * MAUDE | perspective v5.4 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initPerspective
+ * Pins top, front, and bottom surfaces with ScrollTrigger and syncs body scroll height.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initPerspective() {

@@ -1,5 +1,9 @@
-/*
- * UTILITY | limit scroll v1.2 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initLimitScrollKontakt
+ * Locks scroll height to the contact section on mobile and clears the cap on larger viewports.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 import { debounce } from "../debounce.js";

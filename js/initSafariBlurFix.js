@@ -1,5 +1,9 @@
-/*
- * UTILITY | remove blur filter on safari (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initSafariBlurFix
+ * Disables blur and backdrop-filter on Safari for elements flagged in the DOM.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initSafariBlurFix() {

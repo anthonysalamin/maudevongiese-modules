@@ -1,5 +1,9 @@
-/*
- * MAUDE | italic v3.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initItalicFixWidth
+ * Measures italic spans in the nav overlay and pins parent widths to avoid jitter.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initItalicFixWidth() {

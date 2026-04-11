@@ -1,5 +1,9 @@
-/*
- * UTILITY | limit scroll v1.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initLimitScroll
+ * Sets html and body max-height to the bottom of the werkverzeichnis section and refreshes on resize.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 import { debounce } from "../debounce.js";

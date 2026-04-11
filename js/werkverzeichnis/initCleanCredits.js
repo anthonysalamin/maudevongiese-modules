@@ -1,5 +1,9 @@
-/*
- * MAUDE | regex remove Maude von Giese text v1.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initCleanCredits
+ * On narrow viewports, removes leading credit text before a configured name marker.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 import { debounce } from "../debounce.js";

@@ -1,5 +1,9 @@
-/*
- * UTILITY | cookies previous page v1.2 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initPreviousPage
+ * Stores the current URL in a cookie and routes the back button to the prior page.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 import Cookies from "https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.mjs";

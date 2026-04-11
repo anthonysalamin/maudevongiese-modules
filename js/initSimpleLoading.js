@@ -1,6 +1,9 @@
-/*
- * UTILITY | simple loading v1.0.0
- * build: 20.01.25 @17:38
+/**
+ * MAUDEVONGIESE.CH | initSimpleLoading
+ * Fades out the initial loader element and removes it from layout when complete.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initSimpleLoading() {

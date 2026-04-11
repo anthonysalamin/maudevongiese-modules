@@ -1,5 +1,9 @@
-/*
- * UTILITY | images stagger reveal v1.2 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initImagesReveal
+ * Stagger-fades thumb items on the front and bottom surfaces after load.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initImagesReveal() {

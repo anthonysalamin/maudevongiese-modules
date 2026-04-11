@@ -1,5 +1,9 @@
-/*
- * UTILITY | heading wobbly reveal v1.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initHeadingReveal
+ * Reveals the headline with a staggered character animation via SplitType and GSAP.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initHeadingReveal() {

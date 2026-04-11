@@ -1,5 +1,9 @@
-/*
- * UTILITY | smooth scroll v2.3 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | SmoothScrollManager
+ * Initializes Lenis smooth scrolling with ScrollTrigger proxy and resize handling.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export class SmoothScrollManager {

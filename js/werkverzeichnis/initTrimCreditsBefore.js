@@ -1,5 +1,9 @@
-/*
- * MAUDE | regex keep before Maude von Giese text v1.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initTrimCreditsBefore
+ * On small screens, keeps only the credit text before a marker name and drops the rest.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 import { debounce } from "../debounce.js";

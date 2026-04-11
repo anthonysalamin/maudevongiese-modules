@@ -1,5 +1,9 @@
-/*
- * UTILITY | remove ":" on mobile (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initRemoveColonMobile
+ * Strips colon characters from Maude credits nodes when the mobile media query matches.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initRemoveColonMobile() {

@@ -1,5 +1,9 @@
-/*
- * MAUDE | thumb hover reveal v3.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initThumbRevealHover
+ * Groups thumbnails by title and reveals overlays and details on coordinated hover.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initThumbRevealHover() {

@@ -1,5 +1,9 @@
-/*
- * MAUDE | thumb align v2.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initAlignThumbDetails
+ * Nudges thumb detail blocks toward the viewport center based on each overlay position.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initAlignThumbDetails() {

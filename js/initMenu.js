@@ -1,5 +1,9 @@
-/*
- * MAUDE | menu v2.3 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initMenu
+ * Toggles the navigation overlay, background blur, and staggered menu link motion.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initMenu() {

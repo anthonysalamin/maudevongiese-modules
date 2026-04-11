@@ -1,5 +1,9 @@
-/*
- * MAUDE | toggle projekte v2.4 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | initToggleProjekte
+ * Opens and closes the Projekte links panel with GSAP opacity and staggered italics.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export function initToggleProjekte() {

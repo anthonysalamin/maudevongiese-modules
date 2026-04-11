@@ -1,5 +1,9 @@
-/*
- * UTILITY | fps monitor v1.1 (ES6 module)
+/**
+ * MAUDEVONGIESE.CH | FPSMonitor
+ * Shows a lightweight on-screen FPS counter for staging diagnostics.
+ * @build 24.12.25
+ * @updated 00:00 PHT
+ * @author TONYTONY Sàrl
  */
 
 export class FPSMonitor {

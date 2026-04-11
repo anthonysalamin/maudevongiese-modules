@@ -1,7 +1,8 @@
 /**
- * MAUDE VON GIESE | main modules
- * @build 22.09.25
- * @updated 16:39 PHT
+ * MAUDEVONGIESE.CH | initApp
+ * Bootstraps feature modules on DOM ready, then fonts and scroll motion after a short delay.
+ * @build 24.12.25
+ * @updated 00:00 PHT
  * @author TONYTONY Sàrl
  */
 
