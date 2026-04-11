@@ -36,9 +36,6 @@ import { initLimitScroll } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis
 import { initRemoveColonMobile } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initRemoveColonMobile.js?v=1.0.0';
 import { initCleanCredits } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initCleanCredits.js?v=1.1.1';
 import { initTrimCreditsBefore } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initTrimCreditsBefore.js?v=1.0.1';
-// kontakt
-import { initLimitScrollKontakt } from 'https://cdn.maudevongiese.ch/js/kontakt/initLimitScrollKontakt.js?v=1.2.1';
-
 
 async function initApp() {
     // =========================
@@ -51,7 +48,6 @@ async function initApp() {
     initImagesReveal();
     initHeadingReveal();
     initLimitScroll();
-    initLimitScrollKontakt();
     initItalicFixWidth();
     initToggleProjekte();
     initMenu();
