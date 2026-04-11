@@ -25,17 +25,14 @@ import { initToggleProjekte } from 'https://cdn.maudevongiese.ch/js/initTogglePr
 import { initMenu } from 'https://cdn.maudevongiese.ch/js/initMenu.js?v=1.0.0';
 import { initSafariBlurFix } from 'https://cdn.maudevongiese.ch/js/initSafariBlurFix.js?v=1.0.0';
 import { initPreviousPage } from 'https://cdn.maudevongiese.ch/js/initPreviousPage.js?v=1.1.0';
-
 // home
 import { initTypedElements } from 'https://cdn.maudevongiese.ch/js/home/initTypedElements.js?v=1.1.0';
 import { initAlignThumbDetails } from 'https://cdn.maudevongiese.ch/js/home/initAlignThumbDetails.js?v=2.1.0';
 import { initThumbRevealHover } from 'https://cdn.maudevongiese.ch/js/home/initThumbRevealHover.js?v=1.0.0';
 import { initImagesReveal } from 'https://cdn.maudevongiese.ch/js/home/initImagesReveal.js?v=1.2.0';
-
 // werkverzeichnis
 import { initLimitScroll } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initLimitScroll.js?v=1.1.0';
 import { initRemoveColonMobile } from 'https://cdn.maudevongiese.ch/js/werkverzeichnis/initRemoveColonMobile.js?v=1.0.0';
-
 // kontakt
 import { initLimitScrollKontakt } from 'https://cdn.maudevongiese.ch/js/kontakt/initLimitScrollKontakt.js?v=1.2.0';
 
