@@ -22,6 +22,7 @@ import { initToggleProjekte } from "https://cdn.maudevongiese.ch/js/initTogglePr
 import { initMenu } from "https://cdn.maudevongiese.ch/js/initMenu.js?v=1.0.0";
 import { initSafariBlurFix } from "https://cdn.maudevongiese.ch/js/initSafariBlurFix.js?v=1.0.0";
 import { initPreviousPage } from "https://cdn.maudevongiese.ch/js/initPreviousPage.js?v=1.1.0";
+import { initCookieConsent } from "https://cdn.maudevongiese.ch/js/initCookieConsent.js?v=1.0.0";
 // home
 import { initTypedElements } from "https://cdn.maudevongiese.ch/js/home/initTypedElements.js?v=1.1.0";
 import { initAlignThumbDetails } from "https://cdn.maudevongiese.ch/js/home/initAlignThumbDetails.js?v=2.1.0";
@@ -70,6 +71,7 @@ async function initApp() {
     run("Menu", initMenu);
     run("SafariBlurFix", initSafariBlurFix);
     run("PreviousPage", initPreviousPage);
+    run("CookieConsent", initCookieConsent);
     run("CleanCredits", initCleanCredits);
     run("TrimCreditsBefore", initTrimCreditsBefore);
     run("RemoveColonMobile", initRemoveColonMobile);
