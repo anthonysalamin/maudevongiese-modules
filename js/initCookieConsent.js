@@ -11,7 +11,7 @@
 
 const DARK_MODE = false;
 const CONSENT_EVENT_NAME = 'cookieConsentAccepted';
-const LANGUAGE = 'en';
+const LANGUAGE = 'de';
 const POSITION = 'center';
 const POSITIONS = ['left', 'center', 'right'];
 const TRANSLATIONS = {
