@@ -37,7 +37,7 @@ const TRANSLATIONS = {
     acceptLabel: 'Alle akzeptieren',
     declineLabel: 'Nicht notwendige ablehnen',
     privacyLabel: 'Datenschutzrichtlinie',
-    privacyUrl: '/privacy-policy'
+    privacyUrl: '/datenschutzrichtlinie'
   }
 };
 
